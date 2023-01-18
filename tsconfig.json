@@ -1,5 +1,10 @@
+
+
 {
   "compilerOptions": {
+    "types": [
+      "json5"
+    ],
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
