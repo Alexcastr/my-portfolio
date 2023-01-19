@@ -9,23 +9,37 @@
  },
  {
   "id": "2",
-  "title": "pokemon-static",
+  "title": "Pokemon Static",
   "githubUrl": "https://github.com/Alexcastr/pokemon-static",
-  "description": "A simple, free, and open source Trello clone.",
+  "description": " List, filter, and search through all 151 original Pokemon, also you can see the details of each pokemon and add it to your favorites.",
   "image": "/pokemon_mainpage.png"
  },
  {"id": "3",
-  "title": "gym-app",
+  "title": "Gym app",
   "githubUrl": "https://github.com/Alexcastr/gym-app",
-  "description": "A simple, free, and open source Trello clone.",
+  "description": "Gym app is a simple aplication to manage your gym routines, you can list, find and add new exercises from the rapidAPI.",
   "image": "/exercisepage.png"
  },
  {
   
   "id": "4",
-  "title": "expenseTracker",
+  "title": "Expense Tracker",
   "githubUrl": "https://github.com/Alexcastr/expenseTracker",
-  "description": "A simple, free, and open source Trello clone.",
+  "description": " This app is a simple expense tracker, you can add, edit and delete your expenses, also you can see the total amount of your expenses.",
   "image": "/tracker_app.png"
+ },
+ {
+  "id": "5",
+  "title": "Emprende Digital",
+  "githubUrl": "https://www.facebook.com/CastillaVende",
+  "description": "Implementation of a digital marketing strategy called Emprende Digital where entrepreneurs and PYMES from the municipality of Castilla la Nueva were trained and advised on digital marketing topics.",
+  "image": "/castilla-vende.png"
+ },
+ {
+  "id": "6",
+  "title": "TanStack",
+  "githubUrl": "https://github.com/Alexcastr/react-query-issues",
+  "description": "A course about React Query, a library to manage data fetching in React.",
+  "image": "/tanstack-image.png"
  }
 ]

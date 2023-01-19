@@ -7,14 +7,13 @@ interface ProjectsProps {
   description: string;
   image: string;
   githubUrl: string;
-  id: string;
+  id?: string;
 }
 
 export const Card: FC<ProjectsProps> = ({
   title,
   description,
   githubUrl,
-  id,
   image,
 }) => {
   return (
@@ -22,11 +21,11 @@ export const Card: FC<ProjectsProps> = ({
       <Link href={githubUrl} legacyBehavior>
         <a target="_blank">
           <Image
-            className="cursor-pointer"
+            className="cursor-pointer w-full h-56 object-fill rounded-t-lg"
             src={image}
             alt={title}
-            width={500}
-            height={300}
+            width={300}
+            height={500}
           />
         </a>
       </Link>
@@ -38,7 +37,7 @@ export const Card: FC<ProjectsProps> = ({
 
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
           {description}
-          {id}
+          
         </p>
         <Link href={githubUrl} legacyBehavior>
           <a

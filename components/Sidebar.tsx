@@ -53,7 +53,7 @@ export const Sidebar: FC<Props> = ({ children }) => {
         <button
           onClick={handleNavbar}
           className={`p-4 focus:outline-none ${
-            openNavbar ? "bg-slate-900 " : "bg-teal-800"
+            openNavbar ? "bg-slate-900 " : "bg-cyan-900"
           } transition duration-100`}
         >
           <AiOutlineMenu className="w-5 h-5" />
@@ -71,7 +71,7 @@ export const Sidebar: FC<Props> = ({ children }) => {
           <nav className="pl-4 pt-4">
             {menu.map(({ name, href, icon }) => (
               <Link href={href} key={name} legacyBehavior>
-                <a className="block py-2.5 px-4 hover:bg-gray-700 hover:text-white rounded transition duration-200">
+                <a className="block py-2.5 px-4 hover:bg-cyan-900 hover:text-white rounded transition duration-200">
                   <div className="flex gap-4">
                     <span className="material-symbols-outlined">{icon}</span>
                     {name}
@@ -83,7 +83,7 @@ export const Sidebar: FC<Props> = ({ children }) => {
         </div>
       </div>
 
-      <main className="bg-gray-900 flex-1 text-2xl font-bold text-gray-700">
+      <main className="bg-slate-900 flex-1 text-2xl font-bold text-gray-700">
         {children}
       </main>
     </section>

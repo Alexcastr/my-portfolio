@@ -18,14 +18,14 @@ export const Profile = () => {
         <a 
           href="https://github.com/Alexcastr" 
           target="_blank" 
-          className="bg-gray-800 rounded-full p-4 hover:bg-cyan-800 transition duration-200 "
+          className="bg-gray-800 rounded-full p-4 hover:bg-cyan-900 transition duration-200 "
         >
           <FaGithub />
         </a>
         <a
           href="https://www.facebook.com/alex.kstro.1"
           target="_blank"
-          className="bg-gray-800 rounded-full p-4 hover:bg-cyan-800 transition duration-200 "
+          className="bg-gray-800 rounded-full p-4 hover:bg-cyan-900 transition duration-200 "
         >
           <FaFacebook />
         </a>

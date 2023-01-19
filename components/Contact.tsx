@@ -6,7 +6,7 @@ export const Contact = () => {
       <h2 className="text-4xl font-bold text-center pb-10">Contact</h2>
       <div className="bg-gray-500 p-10 shadow-xl mb-3 rounded-md">
         <div className="grid grid-cols-4">
-          <div className="col-span-1 bg-cyan-200 px-3 py-2 rounded-full m-auto ">
+          <div className="col-span-1 bg-cyan-300 px-3 py-2 rounded-full m-auto ">
             <span className="material-symbols-outlined text-4xl align-center">
               person_pin_circle
             </span>
@@ -18,7 +18,7 @@ export const Contact = () => {
         </div>
 
         <div className="grid grid-cols-4 my-4">
-          <div className="col-span-1 bg-cyan-200 px-3 py-2 rounded-full m-auto ">
+          <div className="col-span-1 bg-cyan-300 px-3 py-2 rounded-full m-auto ">
             <span className="material-symbols-outlined text-4xl align-center">
               contact_mail
             </span>
@@ -36,7 +36,7 @@ export const Contact = () => {
            
             legacyBehavior
           >
-            <a target="_blank" className="col-span-1 bg-cyan-200 px-3 py-2 rounded-full m-auto hover:bg-cyan-700 hover:text-gray-100 transition duration-300">
+            <a target="_blank" className="col-span-1 bg-cyan-300 px-3 py-2 rounded-full m-auto hover:bg-cyan-700 hover:text-gray-100 transition duration-300">
               <span className="material-symbols-outlined text-4xl p-none">
                 phone_in_talk
               </span>
