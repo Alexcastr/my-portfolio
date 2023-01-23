@@ -36,7 +36,7 @@ export const Contact = () => {
            
             legacyBehavior
           >
-            <a target="_blank" className="col-span-1 bg-cyan-900 text-gray-100 px-3 py-2 rounded-full m-auto hover:bg-cyan-500 hover:text-gray-900 transition duration-300">
+            <a target="_blank"  rel="noreferrer" className="col-span-1 bg-cyan-900 text-gray-100 px-3 py-2 rounded-full m-auto hover:bg-cyan-500 hover:text-gray-900 transition duration-300">
               <span className="material-symbols-outlined text-4xl p-none">
                 phone_in_talk
               </span>

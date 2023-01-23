@@ -19,7 +19,7 @@ export const Card: FC<ProjectsProps> = ({
   return (
     <li className="max-w-lg bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700 mx-auto">
       <Link href={githubUrl} legacyBehavior>
-        <a target="_blank">
+        <a target="_blank" rel="noreferrer">
           <Image
             className="cursor-pointer w-full h-56 object-fill rounded-t-lg"
             src={image}

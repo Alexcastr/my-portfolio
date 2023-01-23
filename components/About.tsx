@@ -19,7 +19,7 @@ export const About = () => {
             using the MERC stack and Next js framework. 
           </p>
           <Link href="/alex_curriculum2023.pdf" legacyBehavior>
-            <a target="_blank" className="rounded rounded-md bg-gray-800 text-white p-3 hover:bg-gray-200 hover:text-black transition">
+            <a target="_blank" rel="noreferrer" className="rounded rounded-md bg-gray-800 text-white p-3 hover:bg-gray-200 hover:text-black transition">
               Download CV
             </a>
           </Link>
