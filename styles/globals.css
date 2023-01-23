@@ -63,3 +63,13 @@ button::before{
   background-position: 0 0;
  }
 }
+
+
+/*  Customize gradient name*/
+
+.text-gradient-red-blue {
+ background-clip: text;
+ -webkit-background-clip: text;
+ color: transparent;
+ background-image: linear-gradient(to right, #ff0000, #16dcff);
+}
