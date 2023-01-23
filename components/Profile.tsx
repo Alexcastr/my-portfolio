@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import photoalex from 'public/photoalex.jpg'
+import photoalex from "../public/profile_pic.png";
 
 import {FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa'
 
@@ -11,9 +11,9 @@ export const Profile = () => {
         
         src={photoalex}
         alt="Alexanmder castro"
-        className="rounded-full mx-auto w-28 h-32"
+        className="rounded-full mx-auto w-32 h-32"
       />
-      <h1 className="text-3xl font-bold text-center py-5">Alex Castro</h1>
+      <h1 className="text-3xl font-bold text-center py-5 font-bebas font-normal ">Alex Castro</h1>
       <div className="flex justify-center gap-4 text-center">
         <a 
           href="https://github.com/Alexcastr" 

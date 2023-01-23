@@ -48,7 +48,7 @@ const skills = [
   },
   {
     name: 'TypeScript',
-    src: '/logos/typescript.webp',
+    src: '/logos/ts-logo.png',
   },
   {
     name: 'Express',
@@ -71,17 +71,17 @@ const skills = [
 export const Stack = () => {
   return (
     <section className="bg-gray-700 w-full max-h-max ">
-      <h3 className="text-center text-3xl py-7">My skills</h3>
+      <h3 className="text-center text-3xl py-7 font-bebas">My skills</h3>
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 py-4">
          {skills.map((skill) => (
         <div
           key={skill.name}
-          className="w-[190px] h-44 bg-gray-800 rounded-2xl mx-auto hover:scale-105 transition duration-300"
+          className="w-[140px] h-36 sm:w-[180px] sm:h-40 bg-gray-800 rounded-2xl mx-auto hover:scale-105 transition duration-300"
         >
           <Image
-            className="mx-auto pt-7"
-            width={400}
-            height={400}
+            className="m-auto pt-[2.1rem]"
+            width={45}
+            height={45}
             src={skill.src}
             alt={skill.name}
           />

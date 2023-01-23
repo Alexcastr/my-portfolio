@@ -44,7 +44,7 @@ export const Sidebar: FC<Props> = ({ children }) => {
 
   return (
     <section className="relative min-h-screen md:flex">
-      <div className="sticky top-0 bg-slate-900 text-gray-100 flex justify-between md:hidden">
+      <div className="sticky top-0 z-10 bg-slate-900 text-gray-100 flex justify-between md:hidden">
         {/* logo */}
         <Link href="/" legacyBehavior>
           <a className="block p-4 text-white font-bold ">Portfolio</a>
@@ -66,7 +66,7 @@ export const Sidebar: FC<Props> = ({ children }) => {
           openNavbar ? "-translate-x-full " : ""
         }  bg-slate-900 text-blue-100 w-64 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform  md:relative md:translate-x-0 transition duration-200 ease-in-out`}
       >
-        <div className="sticky left-0 top-7">
+        <div className="sticky left-0 top-7 ">
           <Profile />
           <nav className="pl-4 pt-4">
             {menu.map(({ name, href, icon }) => (

@@ -13,13 +13,13 @@ export const About = () => {
           <h3 className="text-6xl font-bold mb-10">
             Hi I'am <span className="text-cyan-500 py-5">Alex Castro</span>
           </h3>
-          <p className="mb-10 text-justify">
-            international business professional graduated from the Santo Tomas
-            University, I have emphasis on digital marketing and web developer
-            using the MERC stack
+          <p className="mb-10 text-start">
+            International business professional graduated from the Santo Tomas
+            University, I have emphasis on digital marketing and web development
+            using the MERC stack and Next js framework. 
           </p>
-          <Link href="" legacyBehavior>
-            <a className="rounded rounded-md bg-gray-800 text-white p-3 hover:bg-gray-200 hover:text-black transition">
+          <Link href="/alex_curriculum2023.pdf" legacyBehavior>
+            <a target="_blank" className="rounded rounded-md bg-gray-800 text-white p-3 hover:bg-gray-200 hover:text-black transition">
               Download CV
             </a>
           </Link>

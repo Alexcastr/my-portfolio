@@ -3,10 +3,10 @@ import Link from "next/link";
 export const Contact = () => {
   return (
     <section id="contact_section" className="px-4 py-10 bg-gray-700 ">
-      <h2 className="text-4xl font-bold text-center pb-10">Contact</h2>
-      <div className="bg-gray-500 p-10 shadow-xl mb-3 rounded-md">
+      <h2 className="text-4xl font-bold text-center pb-10 font-bebas">Contact</h2>
+      <div className="grid gap-6 bg-gray-500 p-auto p-10 shadow-xl mb-3 rounded-md">
         <div className="grid grid-cols-4">
-          <div className="col-span-1 bg-cyan-300 px-3 py-2 rounded-full m-auto ">
+          <div className="col-span-1 bg-cyan-900 text-gray-100 px-3 py-2 rounded-full m-auto ">
             <span className="material-symbols-outlined text-4xl align-center">
               person_pin_circle
             </span>
@@ -17,15 +17,15 @@ export const Contact = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 my-4">
-          <div className="col-span-1 bg-cyan-300 px-3 py-2 rounded-full m-auto ">
+        <div className="grid grid-cols-4">
+          <div className=" bg-cyan-900 text-gray-100 px-3 py-2 rounded-full m-auto ">
             <span className="material-symbols-outlined text-4xl align-center">
               contact_mail
             </span>
           </div>
-          <div className="col-span-3">
+          <div className="cols-span-3">
             <h4 className="text-gray-800">Email:</h4>
-            <p>castro.t.alex@gmail.com</p>
+            <p className="">castro.t.alex@ gmail.com</p>
           </div>
         </div>
 
@@ -36,7 +36,7 @@ export const Contact = () => {
            
             legacyBehavior
           >
-            <a target="_blank" className="col-span-1 bg-cyan-300 px-3 py-2 rounded-full m-auto hover:bg-cyan-700 hover:text-gray-100 transition duration-300">
+            <a target="_blank" className="col-span-1 bg-cyan-900 text-gray-100 px-3 py-2 rounded-full m-auto hover:bg-cyan-500 hover:text-gray-900 transition duration-300">
               <span className="material-symbols-outlined text-4xl p-none">
                 phone_in_talk
               </span>
