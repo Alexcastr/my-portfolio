@@ -10,9 +10,9 @@ export const Home = () => {
           <p>
             <Typed
               strings={[
-                "I'm a Full Stack Developer",
-                "I'm a Freelancer",
-                "I'm a Digital Marketer",
+                "I&apos;m a Full Stack Developer",
+                "I&apos;m a Freelancer",
+                "I&apos;m a Digital Marketer",
               ]}
               typeSpeed={70}
               backSpeed={70}

@@ -11,7 +11,7 @@ export const About = () => {
       <div className="">
         <div >
           <h3 className="text-6xl font-bold mb-10">
-            Hi I'am <span className="text-cyan-500 py-5">Alex Castro</span>
+            Hi I&apos;am <span className="text-cyan-500 py-5">Alex Castro</span>
           </h3>
           <p className="mb-10 text-start">
             International business professional graduated from the Santo Tomas
