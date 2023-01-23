@@ -45,7 +45,7 @@ export const Contact = () => {
 
           <div className="col-span-3">
             <h4 className="text-gray-800">Conctact me</h4>
-            <p>Send me a message, click on the cellphone icon</p>
+            <p>You want a great and minimalistic website ? Send me a message, click on the cellphone icon</p>
           </div>
         </div>
       </div>
