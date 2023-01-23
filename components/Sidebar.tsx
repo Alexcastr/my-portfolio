@@ -64,7 +64,7 @@ export const Sidebar: FC<Props> = ({ children }) => {
       <div
         className={`${
           openNavbar ? "-translate-x-full " : ""
-        }  bg-slate-900 text-blue-100 w-64 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform  md:relative md:translate-x-0 transition duration-200 ease-in-out`}
+        }  bg-slate-900 text-blue-100 w-64 space-y-6 py-7 px-2 absolute z-20 inset-y-0 left-0 transform  md:relative md:translate-x-0 transition duration-200 ease-in-out`}
       >
         <div className="sticky left-0 top-7 ">
           <Profile />
