@@ -80,7 +80,7 @@ export const Sidebar: FC<Props> = ({ children }) => {
               </Link>
             ))}
           </nav>
-          <div className="mt-14 text-center">
+          <div className="mt-14 text-center text-xl">
             Created by <span className="bg-white text-xl text-gradient-red-blue ">Alex Castro</span> 
           </div>
         </div>

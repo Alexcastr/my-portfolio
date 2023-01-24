@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,8 +16,14 @@ export const Card: FC<ProjectsProps> = ({
   githubUrl,
   image,
 }) => {
+  const [togle, setTogle] = useState(false);
+
+  function handleClick() {
+    setTogle(!togle);
+  }
+
   return (
-    <li className="max-w-lg bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700 mx-auto">
+    <li className="max-w-lg border border-gray-200 rounded-lg shadow-lg bg-gray-800 border-gray-700 mx-auto  hover:brightness-125 transition duration-200 ">
       <Link href={githubUrl} legacyBehavior>
         <a target="_blank" rel="noreferrer">
           <Image
@@ -35,10 +41,16 @@ export const Card: FC<ProjectsProps> = ({
           {title}
         </h5>
 
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          {description.length > 100? description.slice(0, 77) + '...' : description}
-          
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
+          {togle ? description : description.substring(0, 53)}
+          <span
+            className="cursor-pointer hover:text-cyan-500 transition duration-200"
+            onClick={handleClick}
+          >
+            {togle ? "" : "..."}
+          </span>
         </p>
+
         <Link href={githubUrl} legacyBehavior>
           <a
             target="_blank"
