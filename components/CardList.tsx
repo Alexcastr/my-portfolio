@@ -17,6 +17,7 @@ const CardList = () => {
             githubUrl={project.githubUrl}
             image={project.image}
             title={project.title}
+            demoUrl={project.demoUrl}
           />
         ))}
       </ul>

@@ -9,7 +9,7 @@ export const About = () => {
       className=" px-4 mb-20 md:grid md:grid-cols-2 "
     >
       <div className="">
-        <div >
+        <div className="lg:pl-6">
           <h3 className="text-6xl font-bold mb-10">
             Hi I&apos;am <span className="text-cyan-500 py-5">Alex Castro</span>
           </h3>
