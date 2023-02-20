@@ -53,7 +53,7 @@ export const Contact = () => {
         <iframe
           title="Mapa de Google Maps ubicado en el pabellón de la Zona deportiva Port de Barcelona."
           className="block m-auto w-full rounded-lg"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7961.835208522216!2d-73.69454182853202!3d3.827844743796214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e10d297ffc24b%3A0x79d4e098446fa1ea!2sCastilla%20La%20Nueva%2C%20Meta!5e0!3m2!1ses!2sco!4v1630428695731!5m2!1ses!2sco"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7961.835208522216!2d-73.69454182853202!3d3.827844743796214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e10d297ffc24b%3A0x79d4e098446fa1ea!2sCastilla%20La%20Nueva%2C%20Meta!5e0!3m2!1ses!2sco!4v1630428695731!5m2!1ses!2sco&libraries=search"
           width="600"
           height="450"
           style={{ border: 0 }}

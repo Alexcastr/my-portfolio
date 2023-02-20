@@ -48,12 +48,14 @@ export const Sidebar: FC<Props> = ({ children, title= "Alex Castro web portfolio
     <>
     <Head>
       <title>{title}</title>
+      <link rel="icon" type="image.jpg" href="./codlex.jpg"/>
       <meta name="author" content="Alex Castro"/>
       <meta name="description" content="My portfolio web"/>
       <meta name="keywords" content="Developer, Marketer, Freelancer"/>
 
       <meta property="og:title" content={`Information about ${title}`} />
       <meta property="og:description" content={`This is the page of ${title}`} />
+      
       
     
     </Head>
