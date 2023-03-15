@@ -45,7 +45,7 @@
   "id": "6",
   "title": "Web landing page",
   "githubUrl": "https://github.com/Alexcastr/web-ladingpage",
-  "demoUrl": "",
+  "demoUrl": "https://bootcamb-web.vercel.app",
   "description": "A landing page for a web development freelance project.",
   "image": "/course-landing-page.png"
  },
